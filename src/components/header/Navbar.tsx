@@ -5,10 +5,10 @@ type TypeProps = {
 function Navbar({ title }: TypeProps) {
   return (
     <nav flex="~" justify="between" align="items-center" h="10vh" m="x-9">
-      <h3 case="capital" font="Playball">
+      <h3 case="capital" font="playball" text="3em">
         {title}
       </h3>
-    <h3 case="capital" font="Nunito">
+      <h3 case="capital" font="nunito">
         last days
       </h3>
     </nav>

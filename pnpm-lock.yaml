@@ -8,6 +8,7 @@ specifiers:
   '@unocss/preset-attributify': ^0.33.1
   '@unocss/preset-uno': ^0.33.1
   '@unocss/preset-web-fonts': ^0.33.2
+  '@unocss/reset': ^0.33.2
   '@vitejs/plugin-react': ^1.3.0
   eslint: '7'
   eslint-config-prettier: ^8.5.0
@@ -23,6 +24,7 @@ specifiers:
   windicss: ^3.5.1
 
 dependencies:
+  '@unocss/reset': 0.33.2
   react: 18.1.0
   react-dom: 18.1.0_react@18.1.0
 
@@ -690,6 +692,10 @@ packages:
   /@unocss/reset/0.33.1:
     resolution: {integrity: sha512-tcl6jsNmrWwCyyBo1rZ0rmL7RtFCpU7jv4/+FzPONHBk4EcyQCYnXlT9j5RaLEM0x4AzylgOFBdXLCkuu+u2cQ==}
     dev: true
+
+  /@unocss/reset/0.33.2:
+    resolution: {integrity: sha512-ArrkGVr8OEfCHZ5p3IiCi2sv5qXRJZ45zzhCr6vuwP+7+RbgMiyDKhV5oYqIGu7oxFesgXxeD+nRe/v4tKL33g==}
+    dev: false
 
   /@unocss/scope/0.33.1:
     resolution: {integrity: sha512-02dAzZB5KUCmzqslw7MuH2tXwPcdidhoLcEXoL++5Y66JSFa281Ld732o3LlwM/kk1KJe5nK7N8E/mnSJa9cEw==}
