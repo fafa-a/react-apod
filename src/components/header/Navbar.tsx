@@ -8,7 +8,7 @@ function Navbar({ title }: TypeProps) {
       <h3 case="capital" font="playball" text="3em">
         {title}
       </h3>
-      <h3 case="capital" font="nunito">
+      <h3 case="upper" font="nunito" text="1.3em">
         last days
       </h3>
     </nav>
